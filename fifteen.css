@@ -1,0 +1,34 @@
+/*
+	Chiho Kim, CSE 190 MX, Assignment #7
+	May 16 2017
+	Stylesheet for fifteen.html.
+*/
+
+body {
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+}
+
+#puzzlearea {
+	width: 400px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#puzzlearea div {
+	width: 90px;
+	height: 90px;
+	border: 5px solid black;
+	font-size: 40pt;
+	position: absolute;
+	color: yellow;
+	background-image: url("background.jpg");
+}
+
+#puzzlearea .highlight:hover {
+	border-color: red;
+	color: red;
+}
